@@ -31,10 +31,16 @@ hr{
     border-radius: 50%;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: white;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     margin: 10px;
 }
+#calculator form input:hover{
+    background-color: rgba(186, 183, 183, 0.344);
+    /* font-size: xx-small; */
+    /* font-weight: lighter\; */
+}
+
 form #display{
     display: flex;
     justify-content: flex-end;
@@ -43,8 +49,26 @@ form #display{
 form #display input{
     text-align: right;
     flex: 1;
+    color: #92c4fa;
     font-size: 45px;
     box-shadow: none;
     background-color: transparent;
     border-radius: revert-layer;
+}
+form #display input:hover{
+    background-color: transparent;
+}
+form input#font{
+    font-size: 25px;
+}
+form input#red {
+    color: #EB455F;
+}
+form input.purple{
+    color: #ADA2FF;
+}
+form input#equal{
+    width: 145px;
+    border-radius: 30px;
+    font-size: 25px;
 }
