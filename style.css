@@ -46,4 +46,5 @@ form #display input{
     font-size: 45px;
     box-shadow: none;
     background-color: transparent;
+    border-radius: revert-layer;
 }
